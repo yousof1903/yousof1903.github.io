@@ -1,18 +1,30 @@
 .welcome {
     height: 100vh;
     background-color: purple;
+
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
 }
 
+.welcome-1 {
+    background-color: purple;
+
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
+}
+.body {
+    padding: 20px;
+}
 .background-image {
-    background-size: auto;
+    background-size: 100% 100%;
     background-image: image(#ffffff 100%, #ffffff 100%);
 }
 
 .grid-container {
     display: grid;
     grid-column-gap: 10px;
-    grid-template-columns: auto auto auto auto;
-    background-color: #2196F3;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: purple;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
@@ -30,4 +42,21 @@
 
 .hei {
     text-align: center;
+}
+
+.nav {
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Times New Roman', Times;
+}
+ 
+.nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+ 
+.contact-section {
+    color: rgba(0, 0, 0, 0.8);
 }
