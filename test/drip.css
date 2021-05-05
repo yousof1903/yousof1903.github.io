@@ -1,0 +1,106 @@
+.welcome {
+    height: 100vh;
+    background-color: purple;
+
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
+}
+
+.welcome-1 {
+    background-color: purple;
+
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
+}
+.body {
+    padding: 20px;
+    background-color: white;
+     color: black;
+}
+.background-image {
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: purple;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    grid: linear-gradient(62deg, 0%, 0%);
+}
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hei {
+    text-align: center;
+}
+
+.nav {
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Times New Roman', Times;
+}
+ 
+.nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.contactcustom-section{
+    color: rgba(0, 0, 0, 0.8);
+}
+.contact-section {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.help-section {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+@media (max-width: 600px) {
+    .welcome {
+     background-color: black;
+     color: white;
+    }
+}
+
+@media (max-width: 800px) {
+    .grid-container {
+        display: grid;
+        grid-column-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+        background-color: purple;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    
+    .grid-item {
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.profile-link > a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    }
