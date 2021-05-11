@@ -1,13 +1,4 @@
 /* Start Head */
-.header {
-    background-color: rgb(82, 184, 243);
-    color: black;
-    text-align: left;
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2px;
-}
-
 #head > h1 {
     font-size: 80px;
     text-align: left;
@@ -75,14 +66,6 @@
 
 /* Start Projects-section */
 .projects-section {
-    color: black;
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0%;
-}
-
-.projects-tile {
     color: black;
     text-align: center;
     font-size: 36px;
@@ -234,49 +217,6 @@ ul.no-bullets {
     }
 }
 
-@media (max-width: 600px) {
-    body {
-     background-color: black;
-     color: white;
-    }
-}
-
-@media (max-width: 600px) {
-    .welcome-section {
-        background-color: #000;
-        text-align: center;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 36px;
-    }
-}
-
-@media (max-width: 600px) {
-    .projects-section {
-        color: white;
-    }
-
-    .projects-section > h1 {
-        color: white;
-        font-size: 40px;
-    }
-
-    .projects-one {
-        font-size: 28px;
-        color: white;
-    }
-    
-    .projects-two {
-        font-size: 28px;
-        color: #080ceb;
-    }
- 
-    .projects-three {
-        font-size: 28px;
-        color: white;
-    }
-}
-
 @media (max-width: 800px) {
     .grid-container {
         display: grid;
@@ -295,25 +235,6 @@ ul.no-bullets {
         padding: 20px;
         font-size: 30px;
         text-align: center;
-    }
-}
-
-@media (max-width: 600px) {
-    .contact-section {
-      background-color: black;
-      color: white;
-    }
-
-    .contact-section > h1 {
-        color: white;
-    }
-}
-
-@media (max-width: 600px) {
-    .profile-link > a {
-        text-decoration: none;
-        font-size: 50px;
-        color: rgb(67, 67, 214);
     }
 }
 /* End Media Query */ 
