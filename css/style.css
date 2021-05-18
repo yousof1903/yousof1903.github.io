@@ -1,134 +1,37 @@
-/* Start Head */
-#head > h1 {
-    font-size: 80px;
-    text-align: left;
-    padding: 0px;
-    margin: 0px;
-    background-color: white;
-    color: black;
-}
-/* End Head */
-
-/* Start Body */
-.body-section {
-    background-color:rgba(82, 184, 243, 0.719);
-}
-/* End Body */
-
-/* Start Navbar */
-.nav {
-    font-size: 16px;
-    font-family:Impact, Haettenschweiler, 'Times New Roman', Times;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin-bottom: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
-
-.nav li {
-    float:right;
-}
-
-.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.nav li a:hover {
-    background-color: turquoise;
-}
-/* End Navbar */
-
-/* Start Welcome-section */
-.welcome-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.welcome {
     height: 100vh;
-    background-color: #ffffff;
-    background-image: linear-gradient(62deg, #ffffff 0%, #ffffff 100%);
-    background-attachment: fixed; 
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-}
-/* End Welcome-section */  
+    background-color: purple;
 
-/* Start Projects-section */
-.projects-section {
-    color: black;
-    text-align: center;
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0%;
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
 }
 
-.projects-section > h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 40px;
-    padding: 0%;
-    font-family: 'Times New Roman', Times, serif;
-}
+.welcome-1 {
+    background-color: purple;
 
-.projects-one {
-    font-size: 36px;
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
 }
-
-.projects-two {
-    font-size: 36px;
-    color: rgba(82, 184, 243, 0.719);
+.body {
+    padding: 20px;
+    background-color: white;
+     color: black;
 }
-
-.projects-three {
-    font-size: 36px;
-}
-
-.projects-section-info {
-    text-align: left;
-    font-size: 20px;
-    color: #000;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 10px;
-}
-
-.projects-section-info > br {
-    text-align: left;
-    font-size: 16px;
-    color: #000;
-}
-
-.projects-section-info > p {
-    line-height: 16px;
-}
-
 .background-image {
-    background-image:image(#ffffff 100%, #ffffff 100%);
-    background-size: auto;
-    background-position: right;
+    background-size: 100% 100%;
+    background-image: image(#ffffff 100%, #ffffff 100%);
 }
-/* End Project-section */
 
-/* Start Grid */
 .grid-container {
     display: grid;
     grid-column-gap: 10px;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: purple;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
+    grid: linear-gradient(62deg, 0%, 0%);
 }
   
 .grid-item {
@@ -137,83 +40,41 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-
-    background-image:image(#ffffff 100%, #ffffff 100%);
-    background-size: 100% 100%;
-    background-position-x: 45%;
-    background-position-y: 45%;
-    background-image: no-repeat;
-}
-/* End Grid */
-
-/* Start Contact-section */
-.contact-section {
-    color: black;
-    background-color: rgba(168, 162, 201, 0.856);
-    text-align: left;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2px;
-    margin: 0;
-    height: 0%;
 }
 
-.contact-section > h1 {
-    color: black;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2px;
-    margin: 0;
-    height: 0%;
-}
-/* End Contact-section */
-
-/* Start Profile-link */
-.profile-link {
-    margin: 5px;
-    font-size: 50px;
+.hei {
     text-align: center;
 }
-.profile-link > a {
-    text-decoration: none;
-    font-size: 50px;
-    color: black;
-} 
 
-.profile-link > h2 {
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+.nav {
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Times New Roman', Times;
 }
-/* End Profile-link */
-
-/* Liste uten punkter */
-ul.no-bullets {
+ 
+.nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
-  }
+    overflow: hidden;
+    background-color: black;
+}
 
-/* Start Media Query */
+.contactcustom-section{
+    color: rgba(0, 0, 0, 0.8);
+}
+.contact-section {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.help-section {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
 @media (max-width: 600px) {
-    .head {
+    .welcome {
      background-color: black;
      color: white;
-    }
-}
-
-@media (max-width: 600px) {
-    .nav li a {
-      background-color: rgb(255, 255, 255);
-      color: black;
-    }
-
-    .nav ul {
-        background-color: white;
-    }
-
-    .nav li a:hover {
-        background-color: turquoise;
     }
 }
 
@@ -222,7 +83,7 @@ ul.no-bullets {
         display: grid;
         grid-column-gap: 10px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
-        background-color: #080ceb;
+        background-color: purple;
         padding-bottom: 10px;
         padding-right: 10px;
         padding-left: 10px;
@@ -237,4 +98,9 @@ ul.no-bullets {
         text-align: center;
     }
 }
-/* End Media Query */ 
+
+.profile-link > a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    }
